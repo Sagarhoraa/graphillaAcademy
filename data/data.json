@@ -1,0 +1,179 @@
+{
+  "courses": [
+    {
+      "id": "frontend-training",
+      "title": "Frontend Training",
+      "rating": 4.8,
+      "duration": "20 Days",
+      "enrolled": "1k+",
+      "priceNPR": 500,
+      "priceUSD": 2.5,
+      "mode": "Remote",
+      "image": "/images/courses/frontend-training.jpg"
+    },
+    {
+      "id": "data-science-training",
+      "title": "Data Science Training",
+      "rating": 4.8,
+      "duration": "1 Month",
+      "enrolled": "800+",
+      "priceNPR": 1000,
+      "priceUSD": 8,
+      "mode": "Onsite",
+      "image": "/images/courses/data-science.jpg"
+    },
+    {
+      "id": "uiux-fellowship",
+      "title": "UI/UX Fellowship",
+      "rating": 4.8,
+      "duration": "1 Month",
+      "enrolled": "600+",
+      "priceNPR": 100,
+      "priceUSD": 8,
+      "mode": "Hybrid",
+      "image": "/images/courses/uiux-fellowship.jpg"
+    },
+    {
+      "id": "mern-stack-fellowship",
+      "title": "MERN Stack Fellowship",
+      "rating": 4.8,
+      "duration": "3 Month",
+      "enrolled": "600+",
+      "priceNPR": 1250,
+      "priceUSD": 10,
+      "mode": "Hybrid",
+      "image": "/images/courses/mern-stack.jpg"
+    },
+    {
+      "id": "backend-training",
+      "title": "Backend Training (Node.js)",
+      "rating": 4.7,
+      "duration": "1 Month",
+      "enrolled": "450+",
+      "priceNPR": 900,
+      "priceUSD": 7,
+      "mode": "Remote",
+      "image": "/images/courses/backend-training.jpg"
+    },
+    {
+      "id": "digital-marketing-bootcamp",
+      "title": "Digital Marketing Bootcamp",
+      "rating": 4.6,
+      "duration": "45 Days",
+      "enrolled": "700+",
+      "priceNPR": 750,
+      "priceUSD": 6,
+      "mode": "Onsite",
+      "image": "/images/courses/digital-marketing.jpg"
+    },
+    {
+      "id": "mobile-app-development",
+      "title": "Mobile App Development (Flutter)",
+      "rating": 4.7,
+      "duration": "2 Month",
+      "enrolled": "350+",
+      "priceNPR": 1100,
+      "priceUSD": 9,
+      "mode": "Hybrid",
+      "image": "/images/courses/mobile-app-dev.jpg"
+    },
+    {
+      "id": "python-django-training",
+      "title": "Python Django Training",
+      "rating": 4.6,
+      "duration": "1 Month",
+      "enrolled": "300+",
+      "priceNPR": 950,
+      "priceUSD": 7.5,
+      "mode": "Remote",
+      "image": "/images/courses/python-django.jpg"
+    },
+    {
+      "id": "graphic-design-bootcamp",
+      "title": "Graphic Design Bootcamp",
+      "rating": 4.5,
+      "duration": "1 Month",
+      "enrolled": "500+",
+      "priceNPR": 650,
+      "priceUSD": 5,
+      "mode": "Onsite",
+      "image": "/images/courses/graphic-design.jpg"
+    },
+    {
+      "id": "wordpress-development",
+      "title": "WordPress Development",
+      "rating": 4.5,
+      "duration": "20 Days",
+      "enrolled": "400+",
+      "priceNPR": 550,
+      "priceUSD": 4.5,
+      "mode": "Remote",
+      "image": "/images/courses/wordpress-dev.jpg"
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "why-learn-react-in-2026",
+      "title": "Why Learn React in 2026",
+      "excerpt": "React remains one of the most in-demand frontend skills — here's why it's still worth learning this year.",
+      "content": "React continues to dominate the frontend job market in Nepal and globally. With Next.js becoming the standard for production apps, understanding React fundamentals opens doors to server components, static generation, and modern full-stack development. In this post, we break down why beginners should still start with React in 2026, and how it connects to the broader JavaScript ecosystem.",
+      "author": "Graphilla Academy",
+      "date": "2026-06-15",
+      "image": "/images/blog/react-2026.jpg",
+      "category": "Web Development"
+    },
+    {
+      "slug": "ui-ux-design-principles-for-beginners",
+      "title": "UI/UX Design Principles Every Beginner Should Know",
+      "excerpt": "Before you open Figma, understand these core design principles that separate good UI from great UI.",
+      "content": "Good design isn't about making things pretty — it's about making things usable. In this post, we cover contrast, hierarchy, whitespace, consistency, and feedback — the five pillars every UI/UX beginner should internalize before touching a design tool. We also share real examples from Nepali startups doing this well.",
+      "author": "Graphilla Academy",
+      "date": "2026-05-28",
+      "image": "/images/blog/uiux-principles.jpg",
+      "category": "Design"
+    },
+    {
+      "slug": "mern-stack-vs-nextjs-which-to-learn",
+      "title": "MERN Stack vs Next.js — Which Should You Learn First?",
+      "excerpt": "Both are popular full-stack paths, but they serve different goals. Here's how to choose.",
+      "content": "MERN (MongoDB, Express, React, Node) teaches you the full stack from scratch, giving you deep control over your backend. Next.js, on the other hand, is a React framework that simplifies routing, rendering, and deployment. If you want backend fundamentals, start with MERN. If you want to ship production-ready apps fast, Next.js is the better entry point.",
+      "author": "Graphilla Academy",
+      "date": "2026-05-10",
+      "image": "/images/blog/mern-vs-nextjs.jpg",
+      "category": "Web Development"
+    },
+    {
+      "slug": "data-science-career-path-nepal",
+      "title": "Data Science Career Path in Nepal — A Realistic Guide",
+      "excerpt": "What does it actually take to land a data science job in Nepal's current job market?",
+      "content": "Data science in Nepal is growing, but the path isn't always clear. This guide walks through the skills employers actually look for — Python, SQL, statistics, and increasingly, basic ML deployment — and how our Data Science Training program is structured to build these skills through real projects rather than just theory.",
+      "author": "Graphilla Academy",
+      "date": "2026-04-22",
+      "image": "/images/blog/data-science-nepal.jpg",
+      "category": "Data Science"
+    },
+    {
+      "slug": "5-common-mistakes-new-developers-make",
+      "title": "5 Common Mistakes New Developers Make (And How to Avoid Them)",
+      "excerpt": "From skipping fundamentals to tutorial hell — here are the patterns we see most in beginner developers.",
+      "content": "After training hundreds of students, we've noticed recurring mistakes: jumping into frameworks before understanding JavaScript fundamentals, not reading error messages carefully, avoiding Git, copy-pasting code without understanding it, and not building original projects. This post breaks down each mistake and gives practical steps to fix it.",
+      "author": "Graphilla Academy",
+      "date": "2026-03-30",
+      "image": "/images/blog/common-mistakes.jpg",
+      "category": "Career Advice"
+    }
+  ],
+
+  "hero": {
+  "badge": "Nepal's Fastest Growing Tech Academy",
+  "titleStart": "Turn Your",
+  "titleHighlight": "Imagination",
+  "titleEnd": "Into a Career",
+  "description": "Learn in-demand skills — web development, data science, UI/UX, and more — through training built by industry experts.",
+  "stats": [
+    { "value": "3k+", "label": "Students Trained" },
+    { "value": "10+", "label": "Courses Offered" },
+    { "value": "4.8", "label": "Average Rating" }
+  ]
+}
+}
