@@ -33,7 +33,7 @@ export default function Navbar() {
         <nav className={`w-full border-b transition-all duration-300 ${
             scrolled ? "bg-white/70 backdrop-blur-lg shadow-md": "bg-white"
             }`}>
-            <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-24">
+            <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
                 <Link href="/" className="flex items-center">
                     <Image
                         src="/images/logo.svg"

@@ -5,6 +5,7 @@
   --foreground: #171717;
   --brand-primary: #be5100;
   --brand-secondary: #ff8c42;
+  
 }
 
 @theme inline {
@@ -18,7 +19,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #FFFAFA;
-    --foreground: #ededed;
+    --foreground: #222222;
   }
 }
 

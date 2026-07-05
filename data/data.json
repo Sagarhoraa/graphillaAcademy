@@ -184,5 +184,72 @@
     { "value": "10+", "label": "Courses Offered" },
     { "value": "4.8", "label": "Average Rating" }
   ]
-}
+},
+
+"partners": {
+    "title": "Our Hiring Partners",
+    "description": "We partner with top companies and startups to provide exceptional placement opportunities for our students.",
+    "companies": [
+      {
+        "id": 1,
+        "name": "Frooti",
+        "logo": "/images/frooti.png"
+      },
+      {
+        "id": 2,
+        "name": "Asian",
+        "logo": "/images/asian.png"
+      },
+      {
+        "id": 3,
+        "name": "Asure",
+        "logo": "/images/asure.png"
+      },
+      {
+        "id": 4,
+        "name": "Fantech",
+        "logo": "/images/fantech.png"
+      },
+      {
+        "id": 5,
+        "name": "Hora",
+        "logo": "/images/hora.png"
+      },
+      {
+        "id": 6,
+        "name": "Naviforce",
+        "logo": "/images/naviforce.png"
+      },
+      {
+        "id": 7,
+        "name": "Google",
+        "logo": "/images/google.png"
+      },
+      {
+        "id": 8,
+        "name": "Microsoft",
+        "logo": "/images/microsoft.png"
+      },
+      {
+        "id": 9,
+        "name": "Nerolac",
+        "logo": "/images/nerolac.png"
+      },
+      {
+        "id": 10,
+        "name": "Norvic",
+        "logo": "/images/norvic.png"
+      },
+      {
+        "id": 11,
+        "name": "Sprite",
+        "logo": "/images/sprite.png"
+      },
+      {
+        "id": 12,
+        "name": "Tasty",
+        "logo": "/images/tasty.png"
+      }
+    ]
+  }
 }
