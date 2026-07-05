@@ -163,8 +163,17 @@
       "category": "Career Advice"
     }
   ],
+  
+  "topBar": {
+    "phone": "+977 9812345678",
+    "phoneLink": "tel:+9779812345678",
+    "email": "graphillatech@gmail.com",
+    "emailLink": "mailto:graphillatech@gmail.com?subject=Course Inquiry",
+    "linkedin": "https://www.linkedin.com/company/graphilla-tech/"
+  },
 
-  "hero": {
+  "hero": 
+  {
   "badge": "Nepal's Fastest Growing Tech Academy",
   "titleStart": "Turn Your",
   "titleHighlight": "Imagination",

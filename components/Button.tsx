@@ -28,6 +28,9 @@ export default function Button({
     hover:scale-[1.02]
     hover:shadow-lg
     active:scale-[0.98]
+    min-w-45
+    md:min-w-55
+    lg:min-w-0
     ${className}
   `}
         >
