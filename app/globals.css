@@ -5,7 +5,8 @@
   --foreground: #171717;
   --brand-primary: #be5100;
   --brand-secondary: #ff8c42;
-  
+  --brand-tertiary: #FFF5F8;
+
 }
 
 @theme inline {
@@ -14,6 +15,7 @@
   --color-brand-primary: var(--brand-primary);
   --color-brand-secondary: var(--brand-secondary);
   --font-sans: var(--font-poppins);
+  --color-brand-tertiary: var(--brand-tertiary);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,7 +29,8 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
-html{
-  scroll-behavior: smooth;  
+
+html {
+  scroll-behavior: smooth;
   font-size: 18px;
 }

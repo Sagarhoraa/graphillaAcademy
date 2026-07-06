@@ -30,8 +30,8 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`w-full border-b transition-all duration-300 ${
-            scrolled ? "bg-white/70 backdrop-blur-lg shadow-md": "bg-white"
+        <nav className={`w-full transition-all duration-300 ${
+            scrolled ? "bg-brand-tertiary/70 backdrop-blur-lg shadow-md": "bg-brand-tertiary"
             }`}>
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
                 <Link href="/" className="flex items-center">
