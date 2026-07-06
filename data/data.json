@@ -165,11 +165,11 @@
   ],
   
   "topBar": {
-    "phone": "+977 9812345678",
-    "phoneLink": "tel:+9779812345678",
-    "email": "graphillatech@gmail.com",
-    "emailLink": "mailto:graphillatech@gmail.com?subject=Course Inquiry",
-    "linkedin": "https://www.linkedin.com/company/graphilla-tech/"
+    "phone": "+9779857084157",
+    "phoneLink": "tel:+9779857084158",
+    "email": "info@graphillatechnology.com",
+    "emailLink": "mailto:info@graphillatechnology.com?subject=Course Inquiry",
+    "linkedin": "https://www.linkedin.com/company/graphilla-technology/posts/?feedView=all"
   },
 
   "hero": 
@@ -251,5 +251,90 @@
         "logo": "/images/tasty.png"
       }
     ]
+  },
+
+  "about": {
+  "title": "About Graphilla Academy",
+  "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology. We bridge the gap between academic education and industry by providing practical training, real-world projects, professional mentorship, innovation, and placement opportunities for aspiring technology professionals.",
+
+  "features": [
+    {
+      "id": 1,
+      "title": "Industry-Based Learning",
+      "description": "Learn through real industry projects guided by experienced mentors and modern development practices.",
+      "image": "/images/about/industry-learning.webp"
+    },
+    {
+      "id": 2,  
+      "title": "Research & Innovation",
+      "description": "Explore innovative ideas through applied research and collaborative technology projects.",
+      "image": "/images/about/research.webp"
+    },
+    {
+      "id": 3,
+      "title": "Career & Placement Support",
+      "description": "Receive career guidance, interview preparation, portfolio reviews, and placement assistance.",
+      "image": "/images/about/placement.webp"
+    },
+    {
+      "id": 4,
+      "title": "Hiring & Recruitment",
+      "description": "Connect with startups and leading companies actively seeking skilled graduates.",
+      "image": "/images/about/hiring.webp"
+    },
+    {
+      "id": 5,
+      "title": "Professional Mentorship",
+      "description": "Learn directly from experienced software engineers, designers, and technology professionals.",
+      "image": "/images/about/mentorship.webp"
+    },
+    {
+      "id": 6,
+      "title": "Hands-on Fellowship",
+      "description": "Build real applications that strengthen your portfolio and practical development skills.",
+      "image": "/images/about/fellowship.webp"
+    },
+    {
+      "id": 7,
+      "title": "Modern Technology Curriculum",
+      "description": "Master the latest tools, frameworks, and best practices used throughout the software industry.",
+      "image": "/images/about/curriculum.webp"
+    },
+    {
+      "id": 8,
+      "title": "Community & Networking",
+      "description": "Become part of a collaborative community of learners, mentors, alumni, and industry professionals.",
+      "image": "/images/about/community.webp"
+    }
+  ]
+},
+"aboutPage": {
+  "hero": {
+    "badge": "About Graphilla Academy",
+    "titleStart": "Empowering",
+    "titleHighlight": "Future Tech",
+    "titleEnd": "Professionals",
+    "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology. We prepare aspiring developers through industry-focused learning, live projects, research, mentorship, and placement support.",
+    "button": "Explore Courses",
+    "image": "/images/about/about-hero.png"
+  },
+
+  "about": {
+    "badge": "Who We Are",
+    "title": "Building Nepal's Next Generation of Tech Professionals",
+    "description": "We believe education should go beyond classrooms. Our programs focus on practical experience, real-world software development, teamwork, communication, and career preparation. Every learner graduates with the confidence to contribute in the professional IT industry.",
+    "image": "/images/about/about-team.jpg"
+  },
+
+  "missionVision": {
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower aspiring technology professionals through industry-focused education, real-world projects, research opportunities, mentorship, and career guidance that prepare them for successful careers in the global technology industry."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become Nepal's leading technology academy by producing highly skilled, innovative, and industry-ready graduates who contribute to the future of technology and digital transformation."
+    }
   }
+}
 }

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import { useState, useEffect } from "react";
 import Button from "../Button";
+import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
     { href: "/", label: "Home" },
@@ -28,10 +29,41 @@ export default function Navbar() {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = "hidden";
+            document.documentElement.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "";
+            document.documentElement.style.overflow = "";
+        }
+
+        return () => {
+            document.body.style.overflow = "";
+            document.documentElement.style.overflow = "";
+        };
+    }, [isOpen]);
+
+    useEffect(() => {
+
+        const handleEsc = (e: KeyboardEvent) => {
+
+            if (e.key === "Escape") {
+
+                setIsOpen(false);
+
+            }
+
+        };
+
+        window.addEventListener("keydown", handleEsc);
+
+        return () => window.removeEventListener("keydown", handleEsc);
+
+    }, []);
 
     return (
-        <nav className={`w-full transition-all duration-300 ${
-            scrolled ? "bg-brand-tertiary/70 backdrop-blur-lg shadow-md": "bg-brand-tertiary"
+        <nav className={`w-full transition-all duration-300 ${scrolled ? "bg-brand-tertiary/70 backdrop-blur-lg shadow-md" : "bg-brand-tertiary"
             }`}>
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
                 <Link href="/" className="flex items-center">
@@ -73,21 +105,98 @@ export default function Navbar() {
                 </button>
             </div>
 
-            {/*  for mobile screen */}
-            {isOpen && (
-                <div className="lg:hidden flex flex-col gap-4 px-6 pb-6">
-                    {navLinks.map((link) => (
-                        <Link
-                            key={link.href}
-                            href={link.href}
+            <AnimatePresence>
+
+                {isOpen && (
+
+                    <>
+
+                        {/* Overlay */}
+
+                        <motion.div
+
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+
                             onClick={() => setIsOpen(false)}
-                            className="text-sm font-medium text-gray-700"
+
+                            className="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm"
+
+                        />
+
+                        {/* Drawer */}
+
+                        <motion.div
+
+                            initial={{ x: "100%" }}
+                            animate={{ x: 0 }}
+                            exit={{ x: "100%" }}
+
+                            transition={{
+                                duration: .35,
+                                ease: "easeInOut"
+                            }}
+
+                            className="fixed top-0 right-0 z-50 h-screen w-80 bg-white shadow-2xl"
+
                         >
-                            {link.label}
-                        </Link>
-                    ))}
-                </div>
-            )}
+
+                            <div className="flex items-center justify-between border-b p-6">
+
+                                <Image
+                                    src="/images/logo.svg"
+                                    alt="Graphilla Academy"
+                                    width={130}
+                                    height={35}
+                                />
+
+                                <button
+                                    onClick={() => setIsOpen(false)}
+                                >
+                                    <HiOutlineX className="h-7 w-7" />
+                                </button>
+
+                            </div>
+
+                            <div className="flex flex-col p-6">
+
+                                {navLinks.map((link) => (
+
+                                    <Link
+
+                                        key={link.href}
+
+                                        href={link.href}
+
+                                        onClick={() => setIsOpen(false)}
+
+                                        className="rounded-xl px-4 py-4 text-lg font-medium text-gray-700 transition hover:bg-brand-tertiary hover:text-brand-primary"
+
+                                    >
+
+                                        {link.label}
+
+                                    </Link>
+
+                                ))}
+
+                                <Button
+                                    href="/courses"
+                                    className="mt-8 text-center"
+                                >
+                                    Start Learning
+                                </Button>
+
+                            </div>
+
+                        </motion.div>
+
+                    </>
+
+                )}
+
+            </AnimatePresence>
         </nav>
 
     );

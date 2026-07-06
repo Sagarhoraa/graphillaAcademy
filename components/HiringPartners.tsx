@@ -11,7 +11,7 @@ export default function HiringPartners() {
 
 
     return (
-        <section className="py-20">
+        <section className="py-20 bg-brand-tertiary">
 
             {/* Centered title */}
             <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">

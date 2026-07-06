@@ -47,7 +47,7 @@ export default function Hero() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="text-gray-600 block text-lg sm:text-xl mt-6 max-w-xl text-center md:text-start"
+                        className="mt-6 max-w-125 text-[16px] leading-[1.85] font-light text-gray-600 text-center lg:text-left"
                     >
                         {hero.description}
                     </motion.p>
@@ -61,7 +61,7 @@ export default function Hero() {
                         <Button href="/" className="text-center">
                             Enroll Now
                         </Button>
-                        <Button href="/" className="hover:bg-transparent!">
+                        <Button href="/" className="hover:bg-brand-tertiary! hover:text-brand-primary!">
                             <span className="flex flex-row justify-center "> View Courses <HiOutlineArrowRight className="ml-2 w-5 h-5" /></span>
                         </Button>
                     </motion.div>
