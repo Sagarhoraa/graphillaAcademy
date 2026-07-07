@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/courses", label: "Courses" },
+    { href: "/programs", label: "Programs" },
     { href: "/blog", label: "Blog" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
@@ -87,7 +87,7 @@ export default function Navbar() {
                             {link.label}
                         </Link>
                     ))}
-                    <Button href="/courses" className="ml-8 shrink-0  text-center ">
+                    <Button href="/programs" className="ml-8 shrink-0  text-center ">
                         Start Learning
                     </Button>
                 </div>
@@ -182,7 +182,7 @@ export default function Navbar() {
                                 ))}
 
                                 <Button
-                                    href="/courses"
+                                    href="/programs"
                                     className="mt-8 text-center"
                                 >
                                     Start Learning

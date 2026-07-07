@@ -8,7 +8,7 @@ export default function AboutFeatures() {
     const { about } = data;
 
     return (
-        <section className="py-24">
+        <section className="py-20 bg-background">
 
             <div className="mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-10">
 

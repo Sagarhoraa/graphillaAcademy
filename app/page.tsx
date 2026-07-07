@@ -2,6 +2,8 @@ import Image from "next/image";
 import Navbar from "../components/header/Navbar";
 import TopBar from "../components/header/Topbar";
 import Hero from "../components/home/Hero";
+import AboutFeatures from "../components/about/AboutFeatures";
+import Footer from "../components/footer/Footer";
 export default function Home() {
   return (
     <div className="bg-zinc-500 font-sans dark:bg-gray-900">
@@ -10,6 +12,8 @@ export default function Home() {
         <Navbar />
       </header>
       <Hero />
+      <AboutFeatures/>
+      <Footer />
     </div>
   );
 }

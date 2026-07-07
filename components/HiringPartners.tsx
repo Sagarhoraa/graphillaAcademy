@@ -55,26 +55,30 @@ export default function HiringPartners() {
                     {partners.companies.map((company) => (
                         <div
                             key={company.id}
-                            className="mx-2 sm:mx-3 lg:mx-4 flex
-h-14 w-24
-sm:h-16 sm:w-28
-lg:h-20 lg:w-32
-shrink-0
-items-center justify-center
-rounded-xl
-border border-gray-200
-bg-white
-shadow-sm
-transition-all duration-300
-hover:-translate-y-1 hover:shadow-lg"
+                            className="mx-2 sm:mx-3 lg:mx-4
+        flex
+        h-14 w-24
+        sm:h-16 sm:w-28
+        lg:h-20 lg:w-32
+        shrink-0
+        items-center
+        justify-center
+        rounded-xl
+        border border-gray-200
+        bg-white
+        shadow-sm
+        transition-all duration-300
+        hover:-translate-y-1 hover:shadow-lg"
                         >
-                            <Image
-                                src={company.logo}
-                                alt={company.name}
-                                width={80}
-                                height={40}
-                                className="w-12 sm:w-14 lg:w-20 h-auto object-contain"
-                            />
+                            {/* Logo Container */}
+                            <div className="relative h-8 w-12 sm:h-10 sm:w-14 lg:h-12 lg:w-20">
+                                <Image
+                                    src={company.logo}
+                                    alt={company.name}
+                                    fill
+                                    className="object-contain"
+                                />
+                            </div>
                         </div>
                     ))}
                 </Marquee>

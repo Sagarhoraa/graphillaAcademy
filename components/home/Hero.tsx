@@ -13,7 +13,7 @@ export default function Hero() {
     const { hero } = data;
 
     return (
-        <section className="relative bg-background overflow-hidden pt-8 md:pt-5 pb-20 ">
+        <section className="relative bg-background overflow-hidden pt-8 md:pt-5 pb-0 ">
             
 
             
@@ -61,8 +61,8 @@ export default function Hero() {
                         <Button href="/" className="text-center">
                             Enroll Now
                         </Button>
-                        <Button href="/" className="hover:bg-brand-tertiary! hover:text-brand-primary!">
-                            <span className="flex flex-row justify-center "> View Courses <HiOutlineArrowRight className="ml-2 w-5 h-5" /></span>
+                        <Button href="/programs" className="hover:bg-brand-tertiary! hover:text-brand-primary!">
+                            <span className="flex flex-row justify-center "> View Programs <HiOutlineArrowRight className="ml-2 w-5 h-5" /></span>
                         </Button>
                     </motion.div>
 

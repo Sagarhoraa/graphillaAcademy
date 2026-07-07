@@ -1,20 +1,26 @@
+import ProgramsHero from "@/components/programs/ProgramsHero";
 import Navbar from "@/components/header/Navbar";
 import TopBar from "@/components/header/Topbar";
-import AboutFeatures from "@/components/about/AboutFeatures";
-import AboutHero from "@/components/about/AboutHero";
-import MissionVision from "@/components/about/MissionVision";
+import ProgramsGrid from "@/components/programs/ProgramsGrid";
 import Footer from "@/components/footer/Footer";
-export default function AboutPage() {
+export default function ProgramsPage() {
+    
     return (
+
         <>
+        
             <header className="sticky top-0 z-50">
                 <TopBar />
                 <Navbar />
             </header>
-            <AboutHero />
-            <AboutFeatures />
-            <MissionVision />
+            <ProgramsHero />
+            <ProgramsGrid />
             <Footer />
+            
+
+
         </>
+
     );
+
 }

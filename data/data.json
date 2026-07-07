@@ -1,5 +1,5 @@
 {
-  "courses": [
+  "programs": [
     {
       "id": "frontend-training",
       "title": "Frontend Training",
@@ -9,7 +9,7 @@
       "priceNPR": 500,
       "priceUSD": 2.5,
       "mode": "Remote",
-      "image": "/images/courses/frontend-training.jpg"
+      "image": "/images/programs/frontend-training.webp"
     },
     {
       "id": "data-science-training",
@@ -20,7 +20,7 @@
       "priceNPR": 1000,
       "priceUSD": 8,
       "mode": "Onsite",
-      "image": "/images/courses/data-science.jpg"
+      "image": "/images/programs/data-science.webp"
     },
     {
       "id": "uiux-fellowship",
@@ -31,7 +31,7 @@
       "priceNPR": 100,
       "priceUSD": 8,
       "mode": "Hybrid",
-      "image": "/images/courses/uiux-fellowship.jpg"
+      "image": "/images/programs/uiux-fellowship.webp"
     },
     {
       "id": "mern-stack-fellowship",
@@ -42,7 +42,7 @@
       "priceNPR": 1250,
       "priceUSD": 10,
       "mode": "Hybrid",
-      "image": "/images/courses/mern-stack.jpg"
+      "image": "/images/programs/mern-stack.webp"
     },
     {
       "id": "backend-training",
@@ -53,7 +53,7 @@
       "priceNPR": 900,
       "priceUSD": 7,
       "mode": "Remote",
-      "image": "/images/courses/backend-training.jpg"
+      "image": "/images/programs/backend-training.webp"
     },
     {
       "id": "digital-marketing-bootcamp",
@@ -64,7 +64,7 @@
       "priceNPR": 750,
       "priceUSD": 6,
       "mode": "Onsite",
-      "image": "/images/courses/digital-marketing.jpg"
+      "image": "/images/programs/digital-marketing.webp"
     },
     {
       "id": "mobile-app-development",
@@ -75,7 +75,7 @@
       "priceNPR": 1100,
       "priceUSD": 9,
       "mode": "Hybrid",
-      "image": "/images/courses/mobile-app-dev.jpg"
+      "image": "/images/programs/mobile-app-dev.webp"
     },
     {
       "id": "python-django-training",
@@ -86,7 +86,7 @@
       "priceNPR": 950,
       "priceUSD": 7.5,
       "mode": "Remote",
-      "image": "/images/courses/python-django.jpg"
+      "image": "/images/programs/python-django.webp"
     },
     {
       "id": "graphic-design-bootcamp",
@@ -97,19 +97,9 @@
       "priceNPR": 650,
       "priceUSD": 5,
       "mode": "Onsite",
-      "image": "/images/courses/graphic-design.jpg"
-    },
-    {
-      "id": "wordpress-development",
-      "title": "WordPress Development",
-      "rating": 4.5,
-      "duration": "20 Days",
-      "enrolled": "400+",
-      "priceNPR": 550,
-      "priceUSD": 4.5,
-      "mode": "Remote",
-      "image": "/images/courses/wordpress-dev.jpg"
+      "image": "/images/programs/graphic-design.webp"
     }
+    
   ],
   "blogs": [
     {
@@ -181,7 +171,7 @@
   "description": "Learn in-demand skills — web development, data science, UI/UX, and more — through training built by industry experts.",
   "stats": [
     { "value": "3k+", "label": "Students Trained" },
-    { "value": "10+", "label": "Courses Offered" },
+    { "value": "10+", "label": "program Offered" },
     { "value": "4.8", "label": "Average Rating" }
   ]
 },
@@ -315,7 +305,7 @@
     "titleHighlight": "Future Tech",
     "titleEnd": "Professionals",
     "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology. We prepare aspiring developers through industry-focused learning, live projects, research, mentorship, and placement support.",
-    "button": "Explore Courses",
+    "button": "Explore Programs",
     "image": "/images/about/about-hero.png"
   },
 
@@ -335,6 +325,55 @@
       "title": "Our Vision",
       "description": "To become Nepal's leading technology academy by producing highly skilled, innovative, and industry-ready graduates who contribute to the future of technology and digital transformation."
     }
+  }
+},
+"programsPage": {
+  "hero": {
+    "title": "Explore Our Programs",
+    "description": "Choose from practical training programs and fellowships designed to help you build real-world skills, work on industry projects, and advance your technology career."
+  }
+},
+"footer": {
+  "logo": "/images/logo.svg",
+
+  "tagline": "Learn. Build. Grow.",
+
+  "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology, empowering students through industry-based learning and real-world projects.",
+
+  "academyLinks": [
+    {
+      "title": "About Us",
+      "href": "/about"
+    },
+    {
+      "title": "Programs",
+      "href": "/programs"
+    },
+    {
+      "title": "Blogs",
+      "href": "/blog"
+    },
+    {
+      "title": "Contact",
+      "href": "/contact"
+    }
+  ],
+
+  "services": [
+    "Website Development",
+    "Digital Marketing",
+    "Graphics Designing",
+    "Video Editing",
+    "SEO Optimization"
+  ],
+
+  "contact": {
+    "address": "Bank Road, Bhairahawa, Nepal",
+    "phones": [
+      "+977 9857084157",
+      "+977 9857084158"
+    ],
+    "email": "academy@graphillatechnology.com"
   }
 }
 }

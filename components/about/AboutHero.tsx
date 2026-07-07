@@ -72,7 +72,7 @@ export default function AboutHero() {
                         className="mt-10"
                     >
 
-                        <Button href="/courses">
+                        <Button href="/programs">
 
                             {hero.button}
 
