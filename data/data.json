@@ -99,7 +99,6 @@
       "mode": "Onsite",
       "image": "/images/programs/graphic-design.webp"
     }
-    
   ],
   "blogs": [
     {
@@ -109,7 +108,7 @@
       "content": "React continues to dominate the frontend job market in Nepal and globally. With Next.js becoming the standard for production apps, understanding React fundamentals opens doors to server components, static generation, and modern full-stack development. In this post, we break down why beginners should still start with React in 2026, and how it connects to the broader JavaScript ecosystem.",
       "author": "Graphilla Academy",
       "date": "2026-06-15",
-      "image": "/images/blog/react-2026.jpg",
+      "image": "/images/blogs/react-2026.webp",
       "category": "Web Development"
     },
     {
@@ -119,7 +118,7 @@
       "content": "Good design isn't about making things pretty — it's about making things usable. In this post, we cover contrast, hierarchy, whitespace, consistency, and feedback — the five pillars every UI/UX beginner should internalize before touching a design tool. We also share real examples from Nepali startups doing this well.",
       "author": "Graphilla Academy",
       "date": "2026-05-28",
-      "image": "/images/blog/uiux-principles.jpg",
+      "image": "/images/blogs/uiux-principles.webp",
       "category": "Design"
     },
     {
@@ -129,7 +128,7 @@
       "content": "MERN (MongoDB, Express, React, Node) teaches you the full stack from scratch, giving you deep control over your backend. Next.js, on the other hand, is a React framework that simplifies routing, rendering, and deployment. If you want backend fundamentals, start with MERN. If you want to ship production-ready apps fast, Next.js is the better entry point.",
       "author": "Graphilla Academy",
       "date": "2026-05-10",
-      "image": "/images/blog/mern-vs-nextjs.jpg",
+      "image": "/images/blogs/mern-vs-nextjs.webp",
       "category": "Web Development"
     },
     {
@@ -139,7 +138,7 @@
       "content": "Data science in Nepal is growing, but the path isn't always clear. This guide walks through the skills employers actually look for — Python, SQL, statistics, and increasingly, basic ML deployment — and how our Data Science Training program is structured to build these skills through real projects rather than just theory.",
       "author": "Graphilla Academy",
       "date": "2026-04-22",
-      "image": "/images/blog/data-science-nepal.jpg",
+      "image": "/images/blogs/data-science-nepal.webp",
       "category": "Data Science"
     },
     {
@@ -149,11 +148,10 @@
       "content": "After training hundreds of students, we've noticed recurring mistakes: jumping into frameworks before understanding JavaScript fundamentals, not reading error messages carefully, avoiding Git, copy-pasting code without understanding it, and not building original projects. This post breaks down each mistake and gives practical steps to fix it.",
       "author": "Graphilla Academy",
       "date": "2026-03-30",
-      "image": "/images/blog/common-mistakes.jpg",
+      "image": "/images/blogs/common-mistakes.webp",
       "category": "Career Advice"
     }
   ],
-  
   "topBar": {
     "phone": "+9779857084157",
     "phoneLink": "tel:+9779857084158",
@@ -161,22 +159,28 @@
     "emailLink": "mailto:info@graphillatechnology.com?subject=Course Inquiry",
     "linkedin": "https://www.linkedin.com/company/graphilla-technology/posts/?feedView=all"
   },
-
-  "hero": 
-  {
-  "badge": "Nepal's Fastest Growing Tech Academy",
-  "titleStart": "Turn Your",
-  "titleHighlight": "Imagination",
-  "titleEnd": "Into a Career",
-  "description": "Learn in-demand skills — web development, data science, UI/UX, and more — through training built by industry experts.",
-  "stats": [
-    { "value": "3k+", "label": "Students Trained" },
-    { "value": "10+", "label": "program Offered" },
-    { "value": "4.8", "label": "Average Rating" }
-  ]
-},
-
-"partners": {
+  "hero": {
+    "badge": "Nepal's Fastest Growing Tech Academy",
+    "titleStart": "Turn Your",
+    "titleHighlight": "Imagination",
+    "titleEnd": "Into a Career",
+    "description": "Learn in-demand skills — web development, data science, UI/UX, and more — through training built by industry experts.",
+    "stats": [
+      {
+        "value": "3k+",
+        "label": "Students Trained"
+      },
+      {
+        "value": "10+",
+        "label": "program Offered"
+      },
+      {
+        "value": "4.8",
+        "label": "Average Rating"
+      }
+    ]
+  },
+  "partners": {
     "title": "Our Hiring Partners",
     "description": "We partner with top companies and startups to provide exceptional placement opportunities for our students.",
     "companies": [
@@ -242,138 +246,144 @@
       }
     ]
   },
-
   "about": {
-  "title": "About Graphilla Academy",
-  "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology. We bridge the gap between academic education and industry by providing practical training, real-world projects, professional mentorship, innovation, and placement opportunities for aspiring technology professionals.",
-
-  "features": [
-    {
-      "id": 1,
-      "title": "Industry-Based Learning",
-      "description": "Learn through real industry projects guided by experienced mentors and modern development practices.",
-      "image": "/images/about/industry-learning.webp"
-    },
-    {
-      "id": 2,  
-      "title": "Research & Innovation",
-      "description": "Explore innovative ideas through applied research and collaborative technology projects.",
-      "image": "/images/about/research.webp"
-    },
-    {
-      "id": 3,
-      "title": "Career & Placement Support",
-      "description": "Receive career guidance, interview preparation, portfolio reviews, and placement assistance.",
-      "image": "/images/about/placement.webp"
-    },
-    {
-      "id": 4,
-      "title": "Hiring & Recruitment",
-      "description": "Connect with startups and leading companies actively seeking skilled graduates.",
-      "image": "/images/about/hiring.webp"
-    },
-    {
-      "id": 5,
-      "title": "Professional Mentorship",
-      "description": "Learn directly from experienced software engineers, designers, and technology professionals.",
-      "image": "/images/about/mentorship.webp"
-    },
-    {
-      "id": 6,
-      "title": "Hands-on Fellowship",
-      "description": "Build real applications that strengthen your portfolio and practical development skills.",
-      "image": "/images/about/fellowship.webp"
-    },
-    {
-      "id": 7,
-      "title": "Modern Technology Curriculum",
-      "description": "Master the latest tools, frameworks, and best practices used throughout the software industry.",
-      "image": "/images/about/curriculum.webp"
-    },
-    {
-      "id": 8,
-      "title": "Community & Networking",
-      "description": "Become part of a collaborative community of learners, mentors, alumni, and industry professionals.",
-      "image": "/images/about/community.webp"
-    }
-  ]
-},
-"aboutPage": {
-  "hero": {
-    "badge": "About Graphilla Academy",
-    "titleStart": "Empowering",
-    "titleHighlight": "Future Tech",
-    "titleEnd": "Professionals",
-    "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology. We prepare aspiring developers through industry-focused learning, live projects, research, mentorship, and placement support.",
-    "button": "Explore Programs",
-    "image": "/images/about/about-hero.png"
+    "title": "About Graphilla Academy",
+    "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology. We bridge the gap between academic education and industry by providing practical training, real-world projects, professional mentorship, innovation, and placement opportunities for aspiring technology professionals.",
+    "features": [
+      {
+        "id": 1,
+        "title": "Industry-Based Learning",
+        "description": "Learn through real industry projects guided by experienced mentors and modern development practices.",
+        "image": "/images/about/industry-learning.webp"
+      },
+      {
+        "id": 2,
+        "title": "Research & Innovation",
+        "description": "Explore innovative ideas through applied research and collaborative technology projects.",
+        "image": "/images/about/research.webp"
+      },
+      {
+        "id": 3,
+        "title": "Career & Placement Support",
+        "description": "Receive career guidance, interview preparation, portfolio reviews, and placement assistance.",
+        "image": "/images/about/placement.webp"
+      },
+      {
+        "id": 4,
+        "title": "Hiring & Recruitment",
+        "description": "Connect with startups and leading companies actively seeking skilled graduates.",
+        "image": "/images/about/hiring.webp"
+      },
+      {
+        "id": 5,
+        "title": "Professional Mentorship",
+        "description": "Learn directly from experienced software engineers, designers, and technology professionals.",
+        "image": "/images/about/mentorship.webp"
+      },
+      {
+        "id": 6,
+        "title": "Hands-on Fellowship",
+        "description": "Build real applications that strengthen your portfolio and practical development skills.",
+        "image": "/images/about/fellowship.webp"
+      },
+      {
+        "id": 7,
+        "title": "Modern Technology Curriculum",
+        "description": "Master the latest tools, frameworks, and best practices used throughout the software industry.",
+        "image": "/images/about/curriculum.webp"
+      },
+      {
+        "id": 8,
+        "title": "Community & Networking",
+        "description": "Become part of a collaborative community of learners, mentors, alumni, and industry professionals.",
+        "image": "/images/about/community.webp"
+      }
+    ]
   },
-
-  "about": {
-    "badge": "Who We Are",
-    "title": "Building Nepal's Next Generation of Tech Professionals",
-    "description": "We believe education should go beyond classrooms. Our programs focus on practical experience, real-world software development, teamwork, communication, and career preparation. Every learner graduates with the confidence to contribute in the professional IT industry.",
-    "image": "/images/about/about-team.jpg"
+  "aboutPage": {
+    "hero": {
+      "badge": "About Graphilla Academy",
+      "titleStart": "Empowering",
+      "titleHighlight": "Future Tech",
+      "titleEnd": "Professionals",
+      "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology. We prepare aspiring developers through industry-focused learning, live projects, research, mentorship, and placement support.",
+      "button": "Explore Programs",
+      "image": "/images/about/about-hero.png"
+    },
+    "about": {
+      "badge": "Who We Are",
+      "title": "Building Nepal's Next Generation of Tech Professionals",
+      "description": "We believe education should go beyond classrooms. Our programs focus on practical experience, real-world software development, teamwork, communication, and career preparation. Every learner graduates with the confidence to contribute in the professional IT industry.",
+      "image": "/images/about/about-team.jpg"
+    },
+    "missionVision": {
+      "mission": {
+        "title": "Our Mission",
+        "description": "To empower aspiring technology professionals through industry-focused education, real-world projects, research opportunities, mentorship, and career guidance that prepare them for successful careers in the global technology industry."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To become Nepal's leading technology academy by producing highly skilled, innovative, and industry-ready graduates who contribute to the future of technology and digital transformation."
+      }
+    }
   },
-
-  "missionVision": {
-    "mission": {
-      "title": "Our Mission",
-      "description": "To empower aspiring technology professionals through industry-focused education, real-world projects, research opportunities, mentorship, and career guidance that prepare them for successful careers in the global technology industry."
-    },
-    "vision": {
-      "title": "Our Vision",
-      "description": "To become Nepal's leading technology academy by producing highly skilled, innovative, and industry-ready graduates who contribute to the future of technology and digital transformation."
+  "programsPage": {
+    "hero": {
+      "title": "Explore Our Programs",
+      "description": "Choose from practical training programs and fellowships designed to help you build real-world skills, work on industry projects, and advance your technology career."
     }
-  }
-},
-"programsPage": {
-  "hero": {
-    "title": "Explore Our Programs",
-    "description": "Choose from practical training programs and fellowships designed to help you build real-world skills, work on industry projects, and advance your technology career."
-  }
-},
-"footer": {
-  "logo": "/images/logo.svg",
-
-  "tagline": "Learn. Build. Grow.",
-
-  "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology, empowering students through industry-based learning and real-world projects.",
-
-  "academyLinks": [
-    {
-      "title": "About Us",
-      "href": "/about"
-    },
-    {
-      "title": "Programs",
-      "href": "/programs"
-    },
-    {
-      "title": "Blogs",
-      "href": "/blog"
-    },
-    {
-      "title": "Contact",
-      "href": "/contact"
-    }
-  ],
-
-  "services": [
-    "Website Development",
-    "Digital Marketing",
-    "Graphics Designing",
-    "Video Editing",
-    "SEO Optimization"
-  ],
-
-  "contact": {
-    "address": "Bank Road, Bhairahawa, Nepal",
-    "phones": [
-      "+977 9857084157",
-      "+977 9857084158"
+  },
+  "footer": {
+    "logo": "/images/logo.svg",
+    "tagline": "Learn. Build. Grow.",
+    "description": "Graphilla Academy is the education and fellowship initiative of Graphilla Technology, empowering students through industry-based learning and real-world projects.",
+    "academyLinks": [
+      {
+        "title": "About Us",
+        "href": "/about"
+      },
+      {
+        "title": "Programs",
+        "href": "/programs"
+      },
+      {
+        "title": "Blogs",
+        "href": "/blog"
+      },
+      {
+        "title": "Contact",
+        "href": "/contact"
+      }
     ],
-    "email": "academy@graphillatechnology.com"
+    "services": [
+      "Website Development",
+      "Digital Marketing",
+      "Graphics Designing",
+      "Video Editing",
+      "SEO Optimization"
+    ],
+    "contact": {
+      "address": "Bank Road, Bhairahawa, Nepal",
+      "phones": [
+        "+977 9857084157",
+        "+977 9857084158"
+      ],
+      "email": "academy@graphillatechnology.com"
+    }
+  },
+
+ "blogPage": {
+  "hero": {
+    "title": "Latest Insights & Articles",
+    "description": "Explore expert articles, industry insights, tips and stories from the Graphilla team."
+  },
+  "featuredBlog": {
+    "category": "Technology",
+    "title": "Why Every Student Should Build Real Projects Before Graduation",
+    "description": "Discover why practical projects, internships, and hands-on experience matter more than certificates in today's competitive technology industry.",
+    "date": "July 7, 2026",
+    "image": "/images/blogs/featured-blog.webp",
+    "link": "/blog/why-every-student-should-build-real-projects"
   }
 }
 }
