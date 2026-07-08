@@ -29,7 +29,7 @@ export default function TestimonialCard({
 
             {/* Review */}
 
-            <p className="line-clamp-5 leading-8 text-gray-600">
+            <p className="line-clamp-5 leading-8 text-gray-600 ">
 
                 "{review}"
 
@@ -54,13 +54,14 @@ export default function TestimonialCard({
 
             <div className="mt-auto flex items-center gap-4 pt-6">
 
-                <Image
-                    src={image}
-                    alt={name}
-                    width={56}
-                    height={56}
-                    className="rounded-full object-cover"
-                />
+                <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full">
+                    <Image
+                        src={image}
+                        alt={name}
+                        fill
+                        className="object-cover"
+                    />
+                </div>
 
                 <div>
 

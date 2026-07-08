@@ -58,11 +58,11 @@ export default function Hero() {
                         transition={{ duration: 0.6, delay: 0.3 }}
                         className="mt-10 flex w-full flex-col gap-4 lg:w-auto md:flex-row justify-center lg:justify-start px-6 md:px-0 text-center md:text-left"
                     >
-                        <Button href="/" className="text-center">
+                        <Button href="/contact/#contact-form" className="text-center">
                             Enroll Now
                         </Button>
                         <Button href="/programs" className="hover:bg-brand-tertiary! hover:text-brand-primary!">
-                            <span className="flex flex-row justify-center "> View Programs <HiOutlineArrowRight className="ml-2 w-5 h-5" /></span>
+                            <span className="flex flex-row justify-center ">View Programs <HiOutlineArrowRight className="ml-2 w-5 h-5" /></span>
                         </Button>
                     </motion.div>
 

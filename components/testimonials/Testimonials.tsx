@@ -25,6 +25,7 @@ export default function Testimonials() {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 1,
                 },
             },
 
@@ -32,6 +33,7 @@ export default function Testimonials() {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 1,
                 },
             },
 

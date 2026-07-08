@@ -99,7 +99,7 @@ export default function ProgramCard({
 
                 {/* Button */}
                 <Button
-                    href={`/programs/${id}`}
+                    href="/contact/#contact-form"
                     className="mt-6 w-full min-w-0 text-center"
                 >
                     Join Program

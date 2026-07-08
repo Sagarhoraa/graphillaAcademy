@@ -400,7 +400,7 @@
     "name": "Saroj Panday",
     "role": "UI/UX Fellowship",
     "rating": 5,
-    "review": "I loved the practical approach. Every assignment reflected real client work, making learning both enjoyable and meaningful.",
+    "review": "I loved the practical approach. Every assignment reflected real client work.",
     "image": "/images/testimonials/student-2.webp"
   },
   {
@@ -417,7 +417,7 @@
     "role": "Data Science Training",
     "rating": 5,
     "review": "Learning through real datasets and projects made complex topics much easier to understand.",
-    "image": "/images/testimonials/student-4.webp"
+    "image": "/images/testimonials/student-10.webp"
   },
   {
     "id": 5,
@@ -465,7 +465,27 @@
     "role": "WordPress Development",
     "rating": 5,
     "review": "I never imagined creating complete websites would become so easy after joining Graphilla Academy.",
-    "image": "/images/testimonials/student-10.webp"
+    "image": "/images/testimonials/student-4.webp"
   }
-]
+],
+"contactPage": {
+  "hero": {
+    "title": "Let's Build Something Amazing Together",
+    "description": "Whether you're looking to learn new skills, discuss a project, or explore collaboration opportunities, our team is ready to help."
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "title": "We're Here to Help",
+    "description": "Have a question about our training programs, services, or upcoming opportunities? Reach out to us anytime—we'd be happy to connect and assist you.",
+    "office": "Bank Road, Bhairahawa, Nepal",
+    "email": "academy@graphillatechnology.com",
+    "phone": "9857084157",
+    "hours": "Sunday to Friday\n10:00 AM to 5:00 PM"
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "description": "Complete the form below and our team will respond as soon as possible.",
+    "privacy": "Your information is kept confidential and will only be used to respond to your inquiry."
+  }
+}
 }
