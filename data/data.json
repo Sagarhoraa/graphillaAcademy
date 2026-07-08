@@ -385,5 +385,87 @@
     "image": "/images/blogs/featured-blog.webp",
     "link": "/blog/why-every-student-should-build-real-projects"
   }
-}
+},
+"testimonials": [
+  {
+    "id": 1,
+    "name": "Sagar Adhikari",
+    "role": "Frontend Training",
+    "rating": 5,
+    "review": "The mentors were incredibly supportive, and the hands-on projects gave me the confidence to build real applications from scratch.",
+    "image": "/images/testimonials/student-1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Saroj Panday",
+    "role": "UI/UX Fellowship",
+    "rating": 5,
+    "review": "I loved the practical approach. Every assignment reflected real client work, making learning both enjoyable and meaningful.",
+    "image": "/images/testimonials/student-2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Chimariya",
+    "role": "MERN Stack Fellowship",
+    "rating": 5,
+    "review": "The curriculum was well structured and helped me understand both frontend and backend development with confidence.",
+    "image": "/images/testimonials/student-3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Balen Sampang Rai",
+    "role": "Data Science Training",
+    "rating": 5,
+    "review": "Learning through real datasets and projects made complex topics much easier to understand.",
+    "image": "/images/testimonials/student-4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Nabin Adhikari",
+    "role": "Backend Training",
+    "rating": 5,
+    "review": "The instructors explained every concept clearly and encouraged us to solve problems independently.",
+    "image": "/images/testimonials/student-5.webp"
+  },
+  {
+    "id": 6,
+    "name": "Anisha Gurung",
+    "role": "Graphic Design Bootcamp",
+    "rating": 5,
+    "review": "I built a professional portfolio during the course and landed freelance projects soon after completing it.",
+    "image": "/images/testimonials/student-6.webp"
+  },
+  {
+    "id": 7,
+    "name": "Bikash Pandey",
+    "role": "Digital Marketing",
+    "rating": 5,
+    "review": "The classes were practical, interactive and focused on skills that companies actually expect.",
+    "image": "/images/testimonials/student-7.webp"
+  },
+  {
+    "id": 8,
+    "name": "Sneha KC",
+    "role": "Flutter Training",
+    "rating": 5,
+    "review": "Building a complete mobile app during the program was the highlight of my learning journey.",
+    "image": "/images/testimonials/student-8.webp"
+  },
+  {
+    "id": 9,
+    "name": "Sujan Bhandari",
+    "role": "Python Django Training",
+    "rating": 5,
+    "review": "Every week we worked on real-world mini projects which made learning much more effective.",
+    "image": "/images/testimonials/student-9.webp"
+  },
+  {
+    "id": 10,
+    "name": "Asmita Shrestha",
+    "role": "WordPress Development",
+    "rating": 5,
+    "review": "I never imagined creating complete websites would become so easy after joining Graphilla Academy.",
+    "image": "/images/testimonials/student-10.webp"
+  }
+]
 }

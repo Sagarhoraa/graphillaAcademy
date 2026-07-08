@@ -34,3 +34,25 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
+/* Slider Arrows */
+
+.slick-prev,
+.slick-next {
+  width: 42px;
+  height: 42px;
+  z-index: 10;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 42px;
+  color: #be5100; /* gray */
+  opacity: 1;
+  transition: color 0.3s ease;
+}
+
+.slick-prev:hover::before,
+.slick-next:hover::before {
+  color:#ff8c42 ;
+
+}
