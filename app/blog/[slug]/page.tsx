@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import data from "@/data/data.json";
 import Navbar from "@/components/header/Navbar";
 import TopBar from "@/components/header/Topbar";
@@ -11,6 +12,25 @@ type Props = {
         slug: string;
     }>;
 };
+export async function generateMetadata({
+  params,
+}: Props): Promise<Metadata> {
+  const { slug } = await params;
+
+  const blog = data.blogs.find((item) => item.slug === slug);
+
+  if (!blog) {
+    return {
+      title: "Blog Not Found",
+      description: "The requested blog could not be found.",
+    };
+  }
+
+  return {
+    title: blog.title,
+    description: blog.content.slice(0, 150),
+  };
+}
 
 export default async function BlogDetailPage({ params }: Props) {
     const { slug } = await params;
@@ -48,7 +68,7 @@ export default async function BlogDetailPage({ params }: Props) {
 
                     </h1>
 
-                    {/* Author & Date */}
+                    {/* Author & Dates */}
 
                     <p className="mt-5 text-gray-500">
 

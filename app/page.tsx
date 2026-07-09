@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "../components/header/Navbar";
 import TopBar from "../components/header/Topbar";
@@ -5,8 +6,16 @@ import Hero from "../components/home/Hero";
 import AboutFeatures from "../components/about/AboutFeatures";
 import Testimonials from "../components/testimonials/Testimonials";
 import Footer from "../components/footer/Footer";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description:
+    "Join Graphilla Academy to learn programming, web development, and modern technologies.",
+};
 export default function Home() {
+  
   return (
+    
     <div className="bg-zinc-500 font-sans dark:bg-gray-900">
       <header className="sticky top-0 z-50">
         <TopBar />

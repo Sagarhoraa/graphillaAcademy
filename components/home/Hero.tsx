@@ -14,9 +14,9 @@ export default function Hero() {
 
     return (
         <section className="relative bg-background overflow-hidden pt-8 md:pt-5 pb-0 ">
-            
 
-            
+
+
             <div className="mx-auto w-full max-w-330 px-6 sm:px-8 lg:px-10 flex flex-col lg:flex-row items-center gap-14">
 
                 {/* Left side */}
@@ -25,8 +25,13 @@ export default function Hero() {
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
-                        className=" text-sm  text-brand-primary bg-brand-primary/10 px-4 py-1.5 rounded-full mb-6"
+                        className="inline-flex items-center gap-3 rounded-full bg-brand-secondary/10 px-4 py-1.5 text-sm text-brand-primary"
                     >
+                        <span className="relative flex h-3 w-3">
+                            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-secondary opacity-75"></span>
+                            <span className="relative inline-flex h-3 w-3 rounded-full bg-brand-secondary shadow-[0_0_10px_rgba(59,130,246,0.9)]"></span>
+                        </span>
+
                         {hero.badge}
                     </motion.span>
 
@@ -102,7 +107,7 @@ export default function Hero() {
                             ease: "easeInOut",
                         },
                     }}
-                    className="relative flex-1 hidden lg:flex align-middle justify-end shadow-[0_24px_60px_rgba(190,81,0,0.18)] rounded-3xl bg-secondary py-2 px-2 mb-10"
+                    className="relative flex-1 hidden lg:flex align-middle justify-center shadow-[0_24px_60px_rgba(190,81,0,0.18)] rounded-3xl bg-secondary py-2 px-2 mb-10"
                 >
                     <Image
                         src="/images/heroimage.png"
@@ -117,7 +122,7 @@ export default function Hero() {
 
                 </motion.div>
             </div>
-            <HiringPartners/>
+            <HiringPartners />
         </section>
     );
 }

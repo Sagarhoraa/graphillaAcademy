@@ -12,8 +12,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Graphilla Academy",
-  description: "Learn. Build. Grow. — Graphilla Technology's Academy",
+  title: {
+    default: "Graphilla Academy",
+    template: "%s | Graphilla Academy",
+  },
+  description: "Learn. Build. Grow. — Graphilla Technology's Academy.",
 };
 
 export default function RootLayout({
@@ -28,4 +31,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+}  
